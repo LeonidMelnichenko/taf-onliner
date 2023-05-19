@@ -16,5 +16,11 @@ public class PageTest {
         WebElement inputLogin = driver.findElement(By.xpath(page.inputLoginXpath));
         inputLogin.sendKeys("mail@mail.com");
 
+        WebElement inputPassword = driver.findElement(By.xpath(page.inputPasswordXpath));
+        inputPassword.sendKeys("345336363");
+
+        WebElement buttonSubmit = driver.findElement(By.xpath(page.buttonSubmitXpath));
+        buttonSubmit.click();
+
     }
 }

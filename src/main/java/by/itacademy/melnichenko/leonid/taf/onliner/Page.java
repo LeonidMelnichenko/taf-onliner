@@ -5,4 +5,7 @@ public class Page {
     String inputLoginXpath = "//*[@id='auth-container']/div/div[2]/div/form/div[1]/div/div[2]/div/div/div/div/input";
     String inputPasswordXpath = "//*[@id='auth-container']/div/div[2]/div/form/div[2]/div/div/div/div/input";
     String buttonSubmitXpath = "//*[@id='auth-container']/div/div[2]/div/form/div[3]/button";
+
+
+
 }
